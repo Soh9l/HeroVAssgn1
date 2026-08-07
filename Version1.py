@@ -31,4 +31,22 @@ def voter_get(Name):
 def results():
     return jsonify(voters_list)
 
+
+profiles=[]
+@app.post("/add")
+def userpass():
+    new_profile = {
+        "Username":request.json["Username"],
+        "Password":request.json["Password"]
+    }
+    profiles.append(new_profile)
+    return jsonify({"msg":"Profile Added"}), 201
+
+@app.get("/get/<username>")
+def checkprofile(username):
+    for i in profiles:
+        if i["Username"] != username:
+            return {"error":"Username not found"}, 404
+    return i["Password"]
+
 app.run(debug=True)
