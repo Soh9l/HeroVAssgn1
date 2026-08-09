@@ -51,4 +51,4 @@ Follow these step-by-step instructions to clone, configure, and run the applicat
 ![Branches Screenshot](images/Branches.png)
 
 * The commit or merge history showing the Version 1 and Version 2 releases
-[!Commits Screenshot](images/Commits.png)
+![Commits Screenshot](images/Commits.png)
