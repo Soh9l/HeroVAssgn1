@@ -42,3 +42,13 @@ Follow these step-by-step instructions to clone, configure, and run the applicat
 2. dev Branch: Served as the active development integration branch. All code changes, endpoint refactoring, and bug fixes were committed to dev first.
 
 3. Merging: Once features were tested on dev, a Pull Request was created to merge dev back into main.
+
+### Screenshots
+* The application running in a browser showing at least one working endpoint
+![Homepage Screenshot](images/Homepage.png)
+
+* The GitHub repository page showing both the dev and main branches
+![Branches Screenshot](images/Branches.png)
+
+* The commit or merge history showing the Version 1 and Version 2 releases
+[!Commits Screenshot](images/Commits.png)
